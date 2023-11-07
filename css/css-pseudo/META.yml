@@ -88,11 +88,6 @@ links:
       results:
         - test: marker-tab-size.html
     - product: chrome
-      url: https://crbug.com/995106
-      results:
-        - test: first-letter-exclude-inline-marker.html
-        - test: first-letter-exclude-inline-child-marker.html
-    - product: chrome
       url: https://crbug.com/1085772
       results:
         - test: first-line-opacity-001.html
@@ -115,44 +110,21 @@ links:
     - product: chrome
       url: https://crbug.com/1024156
       results:
-        - test: active-selection-025.html
         - test: active-selection-027.html
-        - test: cascade-highlight-004.html
-        - test: highlight-cascade-001.html
-        - test: highlight-cascade-002.html
-        - test: highlight-paired-cascade-003.html
-        - test: highlight-paired-cascade-006.html
-        - test: highlight-styling-002.html
-        - test: cascade-highlight-005.html
     - product: chrome
       url: https://crbug.com/1078474
       results:
-        - test: selection-intercharacter-012.html
-        - test: cascade-highlight-001.html
-        - test: cascade-highlight-002.html
-        - test: active-selection-012.html
         - test: active-selection-018.html
-        - test: selection-intercharacter-011.html
-    - product: chrome
-      url: https://crbug.com/1086855
-      results:
-        - test: file-selector-button-001.html
     - product: chrome
       url: https://crbug.com/1113004
       results:
         - test: active-selection-043.html
-    - product: chrome
-      url: https://crbug.com/1110495
-      results:
-        - test: selection-input-011.html
-        - test: selection-textarea-011.html
     - product: chrome
       url: https://crbug.com/1031667
       results:
         - test: marker-content-009.tentative.html
         - test: marker-content-011.tentative.html
         - test: marker-content-007.tentative.html
-        - test: marker-content-008.tentative.html
     - product: chrome
       url: https://crbug.com/1097992
       results:
@@ -161,14 +133,6 @@ links:
       url: https://crbug.com/1060007
       results:
         - test: marker-text-combine-upright.html
-    - product: chrome
-      url: https://crbug.com/979253
-      results:
-        - test: first-line-with-out-of-flow.html
-    - product: chrome
-      url: https://crbug.com/892983
-      results:
-        - test: first-line-with-before-after.html
     - product: firefox
       url: https://bugzilla.mozilla.org/show_bug.cgi?id=1675231
       results:
@@ -193,11 +157,6 @@ links:
         - test: highlight-painting-001.html
         - test: selection-overlay-and-grammar-001.html
         - test: selection-overlay-and-spelling-001.html
-    - product: chrome
-      url: https://crbug.com/1035708
-      results:
-        - test: highlight-pseudos-computed.html
-        - test: target-text-dynamic-002.html
     - product: firefox
       url: https://bugzilla.mozilla.org/show_bug.cgi?id=1697373
       results:
@@ -331,8 +290,6 @@ links:
     - product: chrome
       url: https://crbug.com/1179938
       results:
-        - test: target-text-dynamic-001.html
-        - test: target-text-dynamic-003.html
         - test: target-text-dynamic-004.html
     - product: safari
       url: https://bugs.webkit.org/show_bug.cgi?id=232284
